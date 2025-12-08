@@ -92,7 +92,8 @@ form div label {
     margin-bottom: 8px;
 }
 
-form div input, textarea {
+form div input, 
+textarea {
     width: 100%;
     padding: 8px 16px;
     background-color: var(--secondary-color);
@@ -118,6 +119,7 @@ textarea {
     padding: 4px 8px;
     border-radius: 4px;
 }
+
 
 .lista-tags {
     display: flex;
@@ -214,7 +216,8 @@ textarea {
 }
 
 .container-upload-imagem button::after {
-    content: "";background-image: url("./img/upload.svg");
+    content: "";
+    background-image: url("./img/upload.svg");
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
