@@ -1,12 +1,13 @@
 :root {
     --background-color: #00090e;
     --text-color: #e1e1e1;
-    --primery-color: #fd78f0;
+    --primary-color: #fd78f0;
     --secondary-color: #888888;
     --tag-color: #e7e5e5;
     --font-family: "Prompt", sans-serif;
-    --iten-background: #211727;
+    --itens-background: #211727;
 }
+
 
 * {
     box-sizing: border-box;
@@ -20,7 +21,7 @@ body {
     font-family: var(--font-family);
 
     display: flex;
-    justify-content: center;
+    justify-content: certer;
     align-items: start;
 
     height: 100vh;
@@ -29,8 +30,8 @@ body {
 }
 
 aside {
-    background-color: var(--iten-background);
-    border-radius: 8px;
+    background-color: var(--itens-background);
+    border-radius: 10px;
     height: 100%;
     padding: 40px 16px;
     text-align: center;
@@ -41,7 +42,7 @@ aside {
     flex-direction: column;
     gap: 40px;
     margin-top: 80px;
-    text-align: center;
+    align-items: center;
     list-style-type: none;
 }
 
@@ -56,11 +57,11 @@ aside {
 }
 
 .lista-links li:first-of-type a {
-    color: var(--primery-color);
+    color: var(--primary-color);
 }
 
 .link-destaque {
-    border: 1px solid var(--primery-color);
+    border: 1px solid var(--primary-color);
     padding: 12px 30px;
     border-radius: 8px;
 }
@@ -150,6 +151,7 @@ textarea {
 
 .botao-descartar::after {
     content: "";
+    background-image: url("../CodeConect/img/trash.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 15px;
@@ -170,6 +172,7 @@ textarea {
 
 .botao-publicar::after {
     content: "";
+    background-image: url("../CodeConect/img/arrow_forward2.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 15px;
@@ -215,6 +218,7 @@ textarea {
 
 .container-upload-imagem button::after {
     content: "";
+    background-image: url("../CodeConect/img/upload.svg");
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;

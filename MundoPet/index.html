@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +10,16 @@
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Mundo Pet</title>
-
+    <title>CodeConnect</title>
 </head>
+
 <body>
     <aside>
-        <img src="./img/Logo.png" alt="Logo do Mundo Pet">
+        <img src="./img/Logo.png" alt="logo do CodeConnect">
         <nav>
-           <ul class="lista-links">
+            <ul class="lista-links">
                 <li>
-                   <a href="#" class="link-destaque">Publicar</a> 
+                    <a href="#" class="link-destaque">Publicar</a>
                 </li>
                 <li>
                     <a href="#">
@@ -27,10 +28,10 @@
                     </a>
                 </li>
                 <li>
-                   <a href="#">
+                    <a href="#">
                         <img src="./img/cat.png">
                         Perfil
-                   </a> 
+                    </a>
                 </li>
                 <li>
                     <a href="#">
@@ -44,22 +45,23 @@
                         Sair
                     </a>
                 </li>
-           </ul>
+            </ul>
         </nav>
     </aside>
+
     <main>
         <div class="container-upload-imagem">
             <div class="container-imagem">
-                <img class="mainImage" src="./img/">
+                <img src="./img/gatoLaranja.jpg" alt="" class="main-imagem">
             </div>
-            <button class="">Carregar Imagem</button>
-            <input type="file" id="imegem-upload" accept="image/" style="display: none;">
-            <div>
-                <p>Gato Laranja</p>
-                <img src="img/close.png" alt="">
+            <button id="upload-btn">Carregar imagem</button>
+            <input type="file" id="imagem-upload" accept="image/" style="display: none" />
+            <div class="container-imagem-none">
+                <p>imagen_projeto.png</p>
+                <img src="./img/close.png">
             </div>
-            </div>
-         <div class="container-descricao">
+        </div>
+        <div class="container-descricao">
             <h2>Novo Projeto</h2>
             <form>
                 <div>
@@ -76,8 +78,8 @@
                 </div>
                 <ul class="lista-tags">
                     <li>
-                        <p>Front-end</p>
-                        <img src="./img/close-black.svg">
+                        <p>gato</p>
+                        <img src="../CodeConect/img/close-black.svg">
                     </li>
                 </ul>
                 <div class="container-botoes">
@@ -88,6 +90,8 @@
         </div>
     </main>
 
+
     <script src="scripts.js"></script>
 </body>
+
 </html>
